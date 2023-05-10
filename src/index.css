@@ -20,6 +20,7 @@
   height: 1024px;
   font-size: 72px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   background-color: #000;
   color: #fff;
 }
@@ -45,12 +46,14 @@
 
   padding: 25px;
   font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 .signin-heading{
   /* border: #000 solid 2px; */
   width: 385px;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .easySignIn{

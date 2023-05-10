@@ -40,56 +40,56 @@ function DashboardPage() {
         <div>
             <p style={{fontSize:"36px", marginTop:"60px", fontWeight:'700'}}>Board.</p>
 
-            <div class="vertical-nav">
+            <div className="vertical-nav">
                 <ul>
                     <li>
                         <a href="#">
-                            <div class="menu-item">
-                                <span class="material-symbols-outlined">dashboard</span> 
-                                <span class="menu-item-text">Dashboard</span>
+                            <div className="menu-item">
+                                <span className="material-symbols-outlined">dashboard</span> 
+                                <span className="menu-item-text">Dashboard</span>
                             </div>
                         </a>
                     </li>
 
                     <li>
                         <a href="#">
-                            <div class="menu-item">
-                                <span class="material-symbols-outlined">sell</span> 
-                                <span class="menu-item-text">Transactions</span>
+                            <div className="menu-item">
+                                <span className="material-symbols-outlined">sell</span> 
+                                <span className="menu-item-text">Transactions</span>
                             </div>
                         </a>
                     </li>
 
                     <li>
                         <a href="#">
-                            <div class="menu-item">
-                                <span class="material-symbols-outlined">event_available</span> 
-                                <span class="menu-item-text">Schedules</span>
+                            <div className="menu-item">
+                                <span className="material-symbols-outlined">event_available</span> 
+                                <span className="menu-item-text">Schedules</span>
                             </div>
                         </a>
                     </li>
 
                     <li>
                         <a href="#">
-                            <div class="menu-item">
-                                <span class="material-symbols-outlined">account_circle</span> 
-                                <span class="menu-item-text">Users</span>
+                            <div className="menu-item">
+                                <span className="material-symbols-outlined">account_circle</span> 
+                                <span className="menu-item-text">Users</span>
                             </div>
                         </a>
                     </li>
 
                     <li>
                         <a href="#">
-                            <div class="menu-item">
-                                <span class="material-symbols-outlined">settings</span> 
-                                <span class="menu-item-text">Settings</span>
+                            <div className="menu-item">
+                                <span className="material-symbols-outlined">settings</span> 
+                                <span className="menu-item-text">Settings</span>
                             </div>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="vertical-nav">
+        <div className="vertical-nav">
             <ul>
                 <li><a href="#">Help</a></li>
                 <li><a href="#">Contact Us</a></li>
@@ -105,7 +105,7 @@ function DashboardPage() {
                 <p className='amount'>$2,129,430</p>
             </div>
             <div className='topDashBoardCardIcon'>
-            <span class="material-symbols-outlined">account_balance_wallet</span>
+            <span className="material-symbols-outlined">account_balance_wallet</span>
             </div>
         </Card>
         <Card width="222px" height="120px" bgColor="#F4ECDD" borderRadius="20px" styleName="style3">
@@ -114,7 +114,7 @@ function DashboardPage() {
                 <p className='amount'>$2,129,430</p>
             </div>
             <div className='topDashBoardCardIcon'>
-            <span class="material-symbols-outlined">sell</span>
+            <span className="material-symbols-outlined">sell</span>
             </div>
         </Card>
         <Card width="222px" height="120px" bgColor="#EFDADA" borderRadius="20px" styleName="style3">
@@ -123,7 +123,7 @@ function DashboardPage() {
                 <p className='amount'>$2,129,430</p>
             </div>
             <div className='topDashBoardCardIcon'>
-            <span class="material-symbols-outlined">thumb_up</span>
+            <span className="material-symbols-outlined">thumb_up</span>
             </div>
         </Card>
         <Card width="222px" height="120px" bgColor="#DEE0EF" borderRadius="20px" styleName="style3">
@@ -132,7 +132,7 @@ function DashboardPage() {
                 <p className='amount'>$2,129,430</p>
             </div>
             <div className='topDashBoardCardIcon'>
-            <span class="material-symbols-outlined">group</span>
+            <span className="material-symbols-outlined">group</span>
             </div>
         </Card>
         </div>
