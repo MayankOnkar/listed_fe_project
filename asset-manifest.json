@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/listed_fe_project/static/css/main.26306c98.css",
+    "main.js": "/listed_fe_project/static/js/main.77d62b9a.js",
+    "static/js/787.ec78c698.chunk.js": "/listed_fe_project/static/js/787.ec78c698.chunk.js",
+    "static/media/GLogo.png": "/listed_fe_project/static/media/GLogo.10ca38c5df5b84ee4fe7.png",
+    "static/media/AppleLogo.png": "/listed_fe_project/static/media/AppleLogo.e1122bc2bf097d6a5f95.png",
+    "index.html": "/listed_fe_project/index.html",
+    "main.26306c98.css.map": "/listed_fe_project/static/css/main.26306c98.css.map",
+    "main.77d62b9a.js.map": "/listed_fe_project/static/js/main.77d62b9a.js.map",
+    "787.ec78c698.chunk.js.map": "/listed_fe_project/static/js/787.ec78c698.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26306c98.css",
+    "static/js/main.77d62b9a.js"
+  ]
+}
