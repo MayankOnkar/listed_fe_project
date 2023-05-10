@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+}
+.leftContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width:588px;
+  height: 1024px;
+  font-size: 72px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+
+.rightContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 852px;
+  height: 1024px;
+  background-color:#f5f5f5;
+}
+
+.loginContainer{
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.signin-heading{
+  /* border: #000 solid 2px; */
+  width: 385px;
+  margin-bottom: 20px;
+}
+
+.easySignIn{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  display: flex;
+  justify-content:space-evenly;  
+  font-size: 12px;
+}
+
+img{
+  height: 20px;
+  margin-right: 5px;
+}
+
+ form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+} 
+
+label{
+  margin-bottom: 10px;
+}
+
+input {
+  width: 325px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.signInButton{
+  width: 325px;
+  height: 40px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.signincard{
+  background-color: #fff;
+  color: #000;
+  border-radius:20px;
+  padding: 30px;
+  margin: auto 0px;
+  height: 317px;
+  width: 385px;
+}
+
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin: 20px;
+  padding: 10px;
+}
+
+.easySignInContainer{
+  color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboardContainer{
+  display: flex;
+  height: 1000px;
+  width: 1500px;
+  padding: 20px;
+  margin: 0px auto;
+  background-color: #eee;
+}
+
+.leftDashContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+
+  padding: 20px;
+  margin: 20px;
+}
+
+.vertical-nav {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+.vertical-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-nav li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.vertical-nav a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease; 
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/* .vertical-nav a:hover {
+  background-color: #555;
+} */
+
+.menu-item {
+  display: flex; /* use flexbox layout */
+  align-items: center; /* vertically center the items */  
+}
+
+.menu-item:hover{
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  display: inline-block; /* make the icon a block-level element */
+  font-size: 24px; /* adjust the font size */
+  margin-right: 10px; /* add some space to the right of the icon */
+}
+
+.menu-item-text {
+  display: inline-block; /* make the text a block-level element */
+  font-size: 18px; /* adjust the font size */
+  font-weight: 700; /* set the font weight */
+}
+
+
+.rightDashContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topDashContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topDashBoardCardText{
+  font-size: 14px;
+  font-weight: 400;
+  font-family:'Open Sans', sans-serif;
+}
+
+.amount{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+.topDashBoardCardContent{
+  position:absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.topDashBoardCardIcon{
+  position:absolute;
+  top: 20px;
+  right: 20px;
+}
+
+
+.middleDashContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomDashContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graph {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.graph-heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.user-line {
+  stroke: rgb(41, 41, 165);
+  stroke-width: 2;
+  fill: none;
+}
+
+.guest-line {
+  stroke: red;
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis {
+  stroke: lightgrey;
+  stroke-width: 1;
+}
+
+.axis-label {
+  font-size: 12px;
+  text-anchor: middle;
+}
+
+.grid {
+  stroke: lightgrey;
+  stroke-dasharray: 5;
+}
+
+.bottomDiv{
+  display:flex;
+  justify-content: space-around;
+  margin:40px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottomDiv li{
+  margin-bottom: 15px;
+}
+
+.pie-chart {
+  height: 100%;
+  width: 100%;
+}
+
+.mettingCard{
+margin-bottom: 10px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.mettingCard p {
+  margin-bottom: 5px;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.meetingHeading{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
